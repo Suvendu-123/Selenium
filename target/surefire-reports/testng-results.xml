@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="21003" started-at="2018-08-16T19:06:13Z" finished-at="2018-08-16T19:06:34Z">
+    <groups>
+    </groups>
+    <test name="Test01" duration-ms="21003" started-at="2018-08-16T19:06:13Z" finished-at="2018-08-16T19:06:34Z">
+      <class name="com.flipkart.BNPLpackage.Abc">
+        <test-method status="PASS" signature="launch()[pri:0, instance:com.flipkart.BNPLpackage.Abc@25790e]" name="launch" is-config="true" duration-ms="7564" started-at="2018-08-16T19:06:13Z" finished-at="2018-08-16T19:06:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.flipkart.BNPLpackage.Abc@25790e]" name="login" duration-ms="5612" started-at="2018-08-16T19:06:21Z" finished-at="2018-08-16T19:06:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7978049852]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[monty4171]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="search()[pri:0, instance:com.flipkart.BNPLpackage.Abc@25790e]" name="search" duration-ms="5493" started-at="2018-08-16T19:06:26Z" finished-at="2018-08-16T19:06:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.flipkart.BNPLpackage.Abc@25790e]" name="close" is-config="true" duration-ms="2311" started-at="2018-08-16T19:06:32Z" finished-at="2018-08-16T19:06:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.flipkart.BNPLpackage.Abc -->
+    </test> <!-- Test01 -->
+  </suite> <!-- Suite -->
+</testng-results>
