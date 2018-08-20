@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="21003" started-at="2018-08-16T19:06:13Z" finished-at="2018-08-16T19:06:34Z">
+  <suite name="Suite" duration-ms="38097" started-at="2018-08-20T17:29:10Z" finished-at="2018-08-20T17:29:48Z">
     <groups>
     </groups>
-    <test name="Test01" duration-ms="21003" started-at="2018-08-16T19:06:13Z" finished-at="2018-08-16T19:06:34Z">
+    <test name="Test01" duration-ms="38097" started-at="2018-08-20T17:29:10Z" finished-at="2018-08-20T17:29:48Z">
       <class name="com.flipkart.BNPLpackage.Abc">
-        <test-method status="PASS" signature="launch()[pri:0, instance:com.flipkart.BNPLpackage.Abc@25790e]" name="launch" is-config="true" duration-ms="7564" started-at="2018-08-16T19:06:13Z" finished-at="2018-08-16T19:06:21Z">
+        <test-method status="PASS" signature="launch()[pri:0, instance:com.flipkart.BNPLpackage.Abc@25790e]" name="launch" is-config="true" duration-ms="20284" started-at="2018-08-20T17:29:10Z" finished-at="2018-08-20T17:29:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.flipkart.BNPLpackage.Abc@25790e]" name="login" duration-ms="5612" started-at="2018-08-16T19:06:21Z" finished-at="2018-08-16T19:06:26Z">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.flipkart.BNPLpackage.Abc@25790e]" name="login" duration-ms="5622" started-at="2018-08-20T17:29:31Z" finished-at="2018-08-20T17:29:36Z">
           <params>
             <param index="0">
               <value>
@@ -27,11 +27,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="search()[pri:0, instance:com.flipkart.BNPLpackage.Abc@25790e]" name="search" duration-ms="5493" started-at="2018-08-16T19:06:26Z" finished-at="2018-08-16T19:06:32Z">
+        <test-method status="PASS" signature="search()[pri:0, instance:com.flipkart.BNPLpackage.Abc@25790e]" name="search" duration-ms="9839" started-at="2018-08-20T17:29:36Z" finished-at="2018-08-20T17:29:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- search -->
-        <test-method status="PASS" signature="close()[pri:0, instance:com.flipkart.BNPLpackage.Abc@25790e]" name="close" is-config="true" duration-ms="2311" started-at="2018-08-16T19:06:32Z" finished-at="2018-08-16T19:06:34Z">
+        <test-method status="PASS" signature="close()[pri:0, instance:com.flipkart.BNPLpackage.Abc@25790e]" name="close" is-config="true" duration-ms="2329" started-at="2018-08-20T17:29:46Z" finished-at="2018-08-20T17:29:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
