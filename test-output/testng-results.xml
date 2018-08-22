@@ -1,41 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="24632" started-at="2018-08-20T17:11:32Z" finished-at="2018-08-20T17:11:57Z">
+  <suite name="Suite" duration-ms="75780" started-at="2018-08-22T18:20:15Z" finished-at="2018-08-22T18:21:31Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="24632" started-at="2018-08-20T17:11:32Z" finished-at="2018-08-20T17:11:57Z">
-      <class name="com.flipkart.BNPLpackage.Abc">
-        <test-method status="PASS" signature="launch()[pri:0, instance:com.flipkart.BNPLpackage.Abc@3bd550]" name="launch" is-config="true" duration-ms="11024" started-at="2018-08-20T17:11:32Z" finished-at="2018-08-20T17:11:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launch -->
-        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.flipkart.BNPLpackage.Abc@3bd550]" name="login" duration-ms="5746" started-at="2018-08-20T17:11:43Z" finished-at="2018-08-20T17:11:49Z">
+    <test name="Test01" duration-ms="45453" started-at="2018-08-22T18:20:15Z" finished-at="2018-08-22T18:21:00Z">
+      <class name="com.flipkart.BNPLpackage.Gmail">
+        <test-method status="PASS" signature="unameTest(java.lang.String, java.lang.String)[pri:0, instance:com.flipkart.BNPLpackage.Gmail@1c62251]" name="unameTest" duration-ms="16859" started-at="2018-08-22T18:20:16Z" data-provider="uname" finished-at="2018-08-22T18:20:33Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[7978049852]]>
+                <![CDATA[suvendu.nath12]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[monty4171]]>
+                <![CDATA[pappu123]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="search()[pri:0, instance:com.flipkart.BNPLpackage.Abc@3bd550]" name="search" duration-ms="5519" started-at="2018-08-20T17:11:49Z" finished-at="2018-08-20T17:11:55Z">
+        </test-method> <!-- unameTest -->
+        <test-method status="PASS" signature="unameTest(java.lang.String, java.lang.String)[pri:0, instance:com.flipkart.BNPLpackage.Gmail@1c62251]" name="unameTest" duration-ms="14976" started-at="2018-08-22T18:20:33Z" data-provider="uname" finished-at="2018-08-22T18:20:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[msubhajitsahoo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[monty123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- search -->
-        <test-method status="PASS" signature="close()[pri:0, instance:com.flipkart.BNPLpackage.Abc@3bd550]" name="close" is-config="true" duration-ms="2317" started-at="2018-08-20T17:11:55Z" finished-at="2018-08-20T17:11:57Z">
+        </test-method> <!-- unameTest -->
+        <test-method status="PASS" signature="unameTest(java.lang.String, java.lang.String)[pri:0, instance:com.flipkart.BNPLpackage.Gmail@1c62251]" name="unameTest" duration-ms="12952" started-at="2018-08-22T18:20:48Z" data-provider="uname" finished-at="2018-08-22T18:21:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[subhajit.test90]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[suvendu123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- close -->
+        </test-method> <!-- unameTest -->
+      </class> <!-- com.flipkart.BNPLpackage.Gmail -->
+    </test> <!-- Test01 -->
+    <test name="Test02" duration-ms="75780" started-at="2018-08-22T18:20:15Z" finished-at="2018-08-22T18:21:31Z">
+      <class name="com.flipkart.BNPLpackage.Abc">
+        <test-method status="PASS" signature="launch(java.lang.String)[pri:0, instance:com.flipkart.BNPLpackage.Abc@18067a5]" name="launch" duration-ms="21234" started-at="2018-08-22T18:20:16Z" data-provider="mobile" finished-at="2018-08-22T18:20:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[redmi 4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="launch(java.lang.String)[pri:0, instance:com.flipkart.BNPLpackage.Abc@18067a5]" name="launch" duration-ms="18935" started-at="2018-08-22T18:20:37Z" data-provider="mobile" finished-at="2018-08-22T18:20:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[samsung]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="launch(java.lang.String)[pri:0, instance:com.flipkart.BNPLpackage.Abc@18067a5]" name="launch" duration-ms="17504" started-at="2018-08-22T18:20:56Z" data-provider="mobile" finished-at="2018-08-22T18:21:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[motorolla]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="launch(java.lang.String)[pri:0, instance:com.flipkart.BNPLpackage.Abc@18067a5]" name="launch" duration-ms="17457" started-at="2018-08-22T18:21:13Z" data-provider="mobile" finished-at="2018-08-22T18:21:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[one plus]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
       </class> <!-- com.flipkart.BNPLpackage.Abc -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test02 -->
+  </suite> <!-- Suite -->
 </testng-results>

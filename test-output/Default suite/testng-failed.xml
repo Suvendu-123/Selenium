@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <parameter name="uname" value="7978049852"/>
+  <parameter name="pwd" value="monty4171"/>
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.flipkart.BNPLpackage.Pqr">
+      <class name="com.flipkart.BNPLpackage.Abc">
         <methods>
           <include name="launch"/>
-          <include name="launch"/>
-          <include name="launch"/>
-          <include name="launch"/>
-          <include name="launch"/>
         </methods>
-      </class> <!-- com.flipkart.BNPLpackage.Pqr -->
+      </class> <!-- com.flipkart.BNPLpackage.Abc -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

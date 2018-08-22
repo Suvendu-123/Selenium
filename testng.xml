@@ -1,14 +1,17 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name="Suite" parallel="tests" thread-count="2">
-	<parameter name="uname" value="7978049852" />
-	<parameter name="pwd" value="monty4171" />
-
 	
-
 	<test name="Test01">
 		
+		<classes>
+			<class name="com.flipkart.BNPLpackage.Gmail">
+			</class>
+		</classes>
 
+	</test>
+	<test name="Test02">
+		
 		<classes>
 			<class name="com.flipkart.BNPLpackage.Abc">
 			</class>
